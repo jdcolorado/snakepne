@@ -1,0 +1,13 @@
+Using straight meschach library on Windows using Cywing:
+
+gcc -c file.c -I/Home/......./mesch12b
+gcc -o file.exe file.o /Home/......./mesch12b/meschach.a
+
+Using Make-files on Linux:
+
+Compiling library:	LLRL/make -f LLRL.mak
+Compiling programs:     dir/make -f file_name.mak or  gdb file_name "enter" r "enter"
+Compiling Meschach:     Meschach/ make all
+
+
+
