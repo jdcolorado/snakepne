@@ -1,0 +1,5 @@
+MAT *conv(MAT *Q_Qd_Qddi,MAT *Q_Qd_Qddf, MAT *Xi, MAT *Vi, MAT *Ai, MAT *Xf, MAT *Vf, MAT *Af, double stepi, double stepf)
+{
+
+
+}
