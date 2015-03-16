@@ -1,0 +1,3 @@
+This project allows the computation of Parallel Newton Euler Equations of Motion for calculating the rigid-body dynamics of a snake-like robot composed by "n" degrees of freedom. The parallel dynamics algorithm, coded in "FF\_ne2.c" has a computational complexity of O(log2(n)). It ensures the scalability of the dynamics solution when "n" increases.
+
+MPI library (Message Passing Protocol) has been used for processor/process communication, allowing for the parallel computation of the snake-dynamics.
